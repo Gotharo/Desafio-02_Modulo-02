@@ -6,22 +6,81 @@
 
 
 .main {
-    display: grid;
+    display: grid; 
+    height: 100vh;
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: 4rem auto 3rem;
+    grid-template-areas: 
+        "navbar navbar "
+        "asidebar article "
+        "footer footer ";
 }   
 
 .navbar {
+    grid-area: navbar;
     background-color: #ff9595;
     
 }
 .article {
+    display: flex;
+    grid-area: article;
     background-color: #fc5555;
+    flex-wrap: wrap;   
+}
+/* .card1 >*:nth-child(2) {
+       
+    
+    
+} */
+.card1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #89fa5d;
+    height: 44vh;
+    width: 22rem;
+    margin: .5rem;
     
 }
+.img-cont1 {
+    display: flex;
+    
+    background-color: #ff9595;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    
+    margin: .3rem .3rem 0 .3rem;
+}
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #6f96ff;
+    
+    margin: .3rem;
+}
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff9595;
+    
+    margin: 0;
+    height: 3rem;
+    padding: .2rem;
+    
+}
+
 .asidebar {
-    background-color: #ffdf77;
+    grid-area: asidebar;
+    background-color: #7a6b37;
     
 }
 .footer {
+    grid-area: footer;
     background-color: #89fa5d;
     
 }
