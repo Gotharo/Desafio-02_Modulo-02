@@ -13,7 +13,7 @@
     grid-template-areas: 
         "navbar navbar "
         "asidebar article "
-        "footer footer ";
+        "footer footer ";   
 }   
 
 .navbar {
@@ -25,7 +25,8 @@
     display: flex;
     grid-area: article;
     background-color: #fc5555;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+    overflow: auto; 
 }
 
 .card1 {
@@ -33,17 +34,22 @@
     flex-wrap: nowrap;
     flex-direction: column;
     background-color: #89fa5d;
-    height: 44vh;
+    height: 500px;
     width: 22rem;
     margin: .5rem;
 }
 .img-cont1 {
     display: flex;  
-    background-color: #ff9595;
+    background-color: #ffffff;
     justify-content: center;
     align-items: center;
-    height: 75%;
+    height: 400px;
     margin: .3rem .3rem 0 .3rem;
+}
+.img-cont1 img {
+    max-width: 340px;
+    max-height: auto;
+    object-fit: cover;
 }
 .text1 {
     display: flex;
@@ -53,6 +59,10 @@
     flex-grow: 1;
     background-color: #6f96ff;   
     margin: .3rem;
+}
+.text1 p {
+    margin-bottom: 0;
+    padding: .2rem;
 }
 .btn1 {
     display: flex;
@@ -68,6 +78,13 @@
     grid-area: asidebar;
     background-color: #7a6b37;
     
+}
+.asidebar p {
+    margin: 0;
+    padding: .7rem 0 0 1.2rem;
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 .footer {
     grid-area: footer;
