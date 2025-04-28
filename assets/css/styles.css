@@ -1,14 +1,18 @@
+:root {
+    --font-color-bgdark: #ffffff;
+    --font-color-cant: #b9b9b9;
+    --font-color-dark: #000000;
+}
 * {
     margin: 0;
     padding: 0;
     
 }
 
-
 .main {
     display: grid; 
     height: 100vh;
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 12rem 1fr;
     grid-template-rows: 4rem auto 3rem;
     grid-template-areas: 
         "navbar navbar "
@@ -71,23 +75,54 @@
     background-color: #ff9595;    
     margin: 0;
     height: 3rem;
-    padding: .2rem;   
+    padding: .2rem;    
+    background-color: rgb(40, 11, 107);
+}
+.btn1 button {
+    all: unset;
+    color: var(--font-color-bgdark);
+    font-weight: 600;
 }
 
 .asidebar {
     grid-area: asidebar;
-    background-color: #7a6b37;
+    background-color: #252525;
     
 }
 .asidebar p {
     margin: 0;
     padding: .7rem 0 0 1.2rem;
-    color: #000000;
+    color: var(--font-color-bgdark);
     font-size: 1.3rem;
     font-weight: 600;
 }
-.footer {
-    grid-area: footer;
-    background-color: #89fa5d;
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 -0.85rem;
+    list-style: none;
+}
+.catalogo li {
     
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--font-color-bgdark);
+}
+.cantidad {
+    color: var(--font-color-cant);
+    font-weight: 500;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+    background-color: #89fa5d;    
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+    color: var(--font-color-dark);
+    font-size: 1.2rem;
+    font-weight: 300;
 }
