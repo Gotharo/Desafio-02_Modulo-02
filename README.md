@@ -2,7 +2,8 @@
 <br>
 <h2> Trabajo en Github Pages</h2>
 <br>
-<a>https://gotharo.github.io/Desafio-02_Modulo-02/</a>
+https://gotharo.github.io/Desafio-02_Modulo-02/ 
+<br>
 <br>
 
 ![desafio_02_mol_02](https://github.com/user-attachments/assets/7eda7c55-1e13-4572-8525-9d353a1b8b55)
