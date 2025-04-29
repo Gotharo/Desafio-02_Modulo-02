@@ -1,8 +1,7 @@
 <h1> Desafio 2 Modulo 2 - <strong> Layout de ecommerce con Grid</strong> </h1>
 <br>
-<h2> Trabajo en Github Pages</h2>
+<h2> Trabajo en Github Pages https://gotharo.github.io/Desafio-02_Modulo-02/ </h2>
 <br>
-https://gotharo.github.io/Desafio-02_Modulo-02/ 
 <br>
 <br>
 
