@@ -34,6 +34,10 @@
   color: var(--font-color-bgdark);
   font-size: 1.2rem;
 }
+.iconlink {
+  color: inherit; 
+  text-decoration: none;
+}
 .search-input {
   border-radius: .5fr;
   outline: none;
@@ -150,11 +154,17 @@
   margin: 1rem 0 0 -0.85rem;
   list-style: none;
 }
-.catalogo li {
+.catalogo li  {
   font-size: 1rem;
   font-weight: 300;
   color: var(--font-color-bgdark);
   margin: 0 0 0.4rem 0;
+   
+}
+
+.catalogo li a {
+  color: inherit; 
+  text-decoration: none;
 }
 .cantidad {
   color: var(--font-color-cant);
